@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@media only screen and (max-width: 767px){
+  .input_field{
+    margin-bottom:30px;
+  }
+
+.home-page .home-div h1{
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.home-page .home-div h2{
+  font-weight: 500;
+  font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .contact_submit_button{
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+body{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.form-group{
+  margin-bottom: 20px;
+  outline: none;
+  border-top:  none;
+  border-left: none;
+  border-right: none; 
+  border-bottom: 1px solid grey;
+}
+input{
+  width: 300px;
+  outline: none;
+  border: none;
+}
+form{
+  float: left;
+}
+.form-title{
+  font-size:xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+Button{
+  width: 200px;
+  height: 40px;
+  /* border: 1px solid black; */
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: rgb(1, 119, 230);
+  color: white;
+  font-weight: 450;
+}
+Button:hover{
+  background: rgb(1, 99, 190);
+}
+.container{
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 900px;
+}
+.signup-image{
+  float: right;
+  text-align: center;
+  padding: 30px;
+}
+.signin-image{
+  float: right;
+  text-align: center;
+  padding: 30px;
+}   
+.signin-form{
+  float: left;
+  margin-top: 50px;
+}
+.contact_info_item{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+  /* margin: auto; */
+  margin-top: 10px;
+  width: 350px;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+.contact_info_title{
+  font-weight: bold;
+}
+.contact_form_title{
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+.input_field{
+  border: 1px solid grey;
+  width: 220px;
+  /* height: 50px */
+  padding: 10px;
+}
+.navbar-toggler{
+  width: 60px;
+}
+.home-div{
+  align-items: center;
+  text-align: center;
+  /* margin: auto; */
+  margin-top: 15%;
+}
+.user{
+  color: lightseagreen;
+}
+.wel{
+  font-size: larger;
+}
+#conticon{
+  margin: 5px;
+}
+.cont{
+  margin-left: 40px;
+}
+#notfound{
+  display: flex;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 120px;
+}
+.backhome{
+  text-decoration: none;
+}
+.backhome:hover{
+  text-decoration: underline;
+}
+.abt{
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 25px;
+}

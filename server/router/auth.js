@@ -135,4 +135,10 @@ router.get('/api', (req, res)=>{
     })
     });
 
+
+    router.get('/logout', Authenticate ,(req, res) =>{
+        res.clearCookie('jwtoken', {path:'/'});
+        res.status(200).send('User logout');
+     })
+
 module.exports = router;

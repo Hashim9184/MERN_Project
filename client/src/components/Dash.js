@@ -39,7 +39,7 @@ class Dash extends React.Component {
     }
 
     const handleDecline = async _id => {
-      deleteData(_id)
+      deleteStudent(_id)
       clerData();
     };
   
@@ -47,6 +47,7 @@ class Dash extends React.Component {
 
     const { users } = this.state;
     return (
+      <form>
       <div className="das">
         {users.map((user, index) => (
           <div key={index}>
@@ -67,7 +68,7 @@ class Dash extends React.Component {
                   <td>{user.email}</td>
                   <td>
                     <button onClick={handleAccept}>Accept</button>
-                    <button onClick={() => deleteData(user._id)}>Decline</button>
+                    <button onClick={handleDecline}>Decline</button>
                   </td>
                 </tr>
               </tbody>
@@ -76,6 +77,7 @@ class Dash extends React.Component {
           </div>
         ))}
       </div>
+      </form>
     );
   }
 }
